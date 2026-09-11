@@ -44,7 +44,13 @@ article {
   border: 1px solid #ccc;
   border-radius: 0.8rem;
 }
-
+img{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
 article h3 {
   font-size: clamp(1.2rem, 2vw, 1.5rem);
   margin: 0 0 1vh;

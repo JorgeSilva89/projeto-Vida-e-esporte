@@ -1,5 +1,6 @@
 
 import"./Main.css";
+import corrida from "../../assets/corrida.png"
 function Main() {
   return (
     <main>
@@ -23,6 +24,7 @@ function Main() {
         </article>
 
         <article>
+          <img src={corrida} alt="" />
           <h3>Correr</h3>
           <p>
             Melhora o condicionamento e ajuda a manter uma rotina ativa.
